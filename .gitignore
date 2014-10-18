@@ -1,0 +1,41 @@
+.bundle
+db/*.sqlite3
+db/schema.rb
+log/*.log
+tmp/
+.sass-cache/
+.rspec
+config/database.yml
+public/assets
+
+# Paperclip
+public/system
+
+# Emacs
+*~
+*#
+*.#*
+
+# Vim
+*.swp
+
+# netbeans files
+nbproject/*
+
+.DS_Store
+
+.generators
+.rakeTasks
+.idea
+AirCasting.iml
+AirCasting.ipr
+AirCasting.iws
+.rvmrc
+.ruby-version
+.ruby-gemset
+config/deploy/*.rb
+config/newrelic.yml
+
+analyzing/
+config/rails_best_practices.yml
+.jhw-cache
